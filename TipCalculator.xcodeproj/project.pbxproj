@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3349302278F702C00580B17 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3349301278F702C00580B17 /* SettingsViewController.swift */; };
 		F372B1442789557E0064CF22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372B1432789557E0064CF22 /* AppDelegate.swift */; };
 		F372B1462789557E0064CF22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372B1452789557E0064CF22 /* SceneDelegate.swift */; };
 		F372B1482789557E0064CF22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372B1472789557E0064CF22 /* ViewController.swift */; };
@@ -36,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F372B1402789557E0064CF22 /* TIPCALC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIPCALC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3349301278F702C00580B17 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F372B1402789557E0064CF22 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F372B1432789557E0064CF22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F372B1452789557E0064CF22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F372B1472789557E0064CF22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +46,9 @@
 		F372B14C278955810064CF22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F372B14F278955810064CF22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F372B151278955810064CF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F372B156278955820064CF22 /* TIPCALCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIPCALCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F372B156278955820064CF22 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F372B15A278955820064CF22 /* TIPCALCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIPCALCTests.swift; sourceTree = "<group>"; };
-		F372B160278955820064CF22 /* TIPCALCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIPCALCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F372B160278955820064CF22 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F372B164278955820064CF22 /* TIPCALCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIPCALCUITests.swift; sourceTree = "<group>"; };
 		F372B166278955820064CF22 /* TIPCALCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIPCALCUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 		F372B1372789557E0064CF22 = {
 			isa = PBXGroup;
 			children = (
+				F3349301278F702C00580B17 /* SettingsViewController.swift */,
 				F372B1422789557E0064CF22 /* TIPCALC */,
 				F372B159278955820064CF22 /* TIPCALCTests */,
 				F372B163278955820064CF22 /* TIPCALCUITests */,
@@ -89,9 +92,9 @@
 		F372B1412789557E0064CF22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F372B1402789557E0064CF22 /* TIPCALC.app */,
-				F372B156278955820064CF22 /* TIPCALCTests.xctest */,
-				F372B160278955820064CF22 /* TIPCALCUITests.xctest */,
+				F372B1402789557E0064CF22 /* TipCalculator.app */,
+				F372B156278955820064CF22 /* TipCalculatorTests.xctest */,
+				F372B160278955820064CF22 /* TipCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F372B13F2789557E0064CF22 /* TIPCALC */ = {
+		F372B13F2789557E0064CF22 /* TipCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F372B16A278955820064CF22 /* Build configuration list for PBXNativeTarget "TIPCALC" */;
+			buildConfigurationList = F372B16A278955820064CF22 /* Build configuration list for PBXNativeTarget "TipCalculator" */;
 			buildPhases = (
 				F372B13C2789557E0064CF22 /* Sources */,
 				F372B13D2789557E0064CF22 /* Frameworks */,
@@ -142,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = TIPCALC;
+			name = TipCalculator;
 			productName = TIPCALC;
-			productReference = F372B1402789557E0064CF22 /* TIPCALC.app */;
+			productReference = F372B1402789557E0064CF22 /* TipCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F372B155278955820064CF22 /* TIPCALCTests */ = {
+		F372B155278955820064CF22 /* TipCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F372B16D278955820064CF22 /* Build configuration list for PBXNativeTarget "TIPCALCTests" */;
+			buildConfigurationList = F372B16D278955820064CF22 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */;
 			buildPhases = (
 				F372B152278955820064CF22 /* Sources */,
 				F372B153278955820064CF22 /* Frameworks */,
@@ -160,14 +163,14 @@
 			dependencies = (
 				F372B158278955820064CF22 /* PBXTargetDependency */,
 			);
-			name = TIPCALCTests;
+			name = TipCalculatorTests;
 			productName = TIPCALCTests;
-			productReference = F372B156278955820064CF22 /* TIPCALCTests.xctest */;
+			productReference = F372B156278955820064CF22 /* TipCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F372B15F278955820064CF22 /* TIPCALCUITests */ = {
+		F372B15F278955820064CF22 /* TipCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F372B170278955820064CF22 /* Build configuration list for PBXNativeTarget "TIPCALCUITests" */;
+			buildConfigurationList = F372B170278955820064CF22 /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */;
 			buildPhases = (
 				F372B15C278955820064CF22 /* Sources */,
 				F372B15D278955820064CF22 /* Frameworks */,
@@ -178,9 +181,9 @@
 			dependencies = (
 				F372B162278955820064CF22 /* PBXTargetDependency */,
 			);
-			name = TIPCALCUITests;
+			name = TipCalculatorUITests;
 			productName = TIPCALCUITests;
-			productReference = F372B160278955820064CF22 /* TIPCALCUITests.xctest */;
+			productReference = F372B160278955820064CF22 /* TipCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F372B13B2789557E0064CF22 /* Build configuration list for PBXProject "TIPCALC" */;
+			buildConfigurationList = F372B13B2789557E0064CF22 /* Build configuration list for PBXProject "TipCalculator" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F372B13F2789557E0064CF22 /* TIPCALC */,
-				F372B155278955820064CF22 /* TIPCALCTests */,
-				F372B15F278955820064CF22 /* TIPCALCUITests */,
+				F372B13F2789557E0064CF22 /* TipCalculator */,
+				F372B155278955820064CF22 /* TipCalculatorTests */,
+				F372B15F278955820064CF22 /* TipCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +264,7 @@
 				F372B1482789557E0064CF22 /* ViewController.swift in Sources */,
 				F372B1442789557E0064CF22 /* AppDelegate.swift in Sources */,
 				F372B1462789557E0064CF22 /* SceneDelegate.swift in Sources */,
+				F3349302278F702C00580B17 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		F372B158278955820064CF22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F372B13F2789557E0064CF22 /* TIPCALC */;
+			target = F372B13F2789557E0064CF22 /* TipCalculator */;
 			targetProxy = F372B157278955820064CF22 /* PBXContainerItemProxy */;
 		};
 		F372B162278955820064CF22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F372B13F2789557E0064CF22 /* TIPCALC */;
+			target = F372B13F2789557E0064CF22 /* TipCalculator */;
 			targetProxy = F372B161278955820064CF22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,13 +441,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TB5964B2A4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TIPCALC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TipCalculator;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,8 +459,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TIPCALC.TIPCALC;
+				PRODUCT_BUNDLE_IDENTIFIER = TipCalculatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,13 +473,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TB5964B2A4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TIPCALC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TipCalculator;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,8 +491,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TIPCALC.TIPCALC;
+				PRODUCT_BUNDLE_IDENTIFIER = TipCalculatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,7 +515,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIPCALC.app/TIPCALC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
 			};
 			name = Debug;
 		};
@@ -520,7 +534,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIPCALC.app/TIPCALC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
 			};
 			name = Release;
 		};
@@ -561,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F372B13B2789557E0064CF22 /* Build configuration list for PBXProject "TIPCALC" */ = {
+		F372B13B2789557E0064CF22 /* Build configuration list for PBXProject "TipCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F372B168278955820064CF22 /* Debug */,
@@ -570,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F372B16A278955820064CF22 /* Build configuration list for PBXNativeTarget "TIPCALC" */ = {
+		F372B16A278955820064CF22 /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F372B16B278955820064CF22 /* Debug */,
@@ -579,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F372B16D278955820064CF22 /* Build configuration list for PBXNativeTarget "TIPCALCTests" */ = {
+		F372B16D278955820064CF22 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F372B16E278955820064CF22 /* Debug */,
@@ -588,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F372B170278955820064CF22 /* Build configuration list for PBXNativeTarget "TIPCALCUITests" */ = {
+		F372B170278955820064CF22 /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F372B171278955820064CF22 /* Debug */,
